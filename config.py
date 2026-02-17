@@ -14,15 +14,15 @@ SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 
 # Bot Configuration
 SESSION = "yato"
-TOKEN = "642712"
+TOKEN = ""
 API_ID = ""
 API_HASH = ""
 WORKERS = 5
 
-DB_URI = "mongodb"
+DB_URI = ""
 DB_NAME = "yato"
 
-FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
 DB_CHANNEL =    # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
@@ -33,9 +33,9 @@ DB_CHANNEL =    # just put channel id dont add ""
 # Auto Delete Timer (seconds)
 AUTO_DEL = 300
 # Admin IDs
-ADMINS = [6497757690, 6103092779]
+ADMINS = []
 # Bot Settings
-DISABLE_BTN = True
+DISABLE_BTN = False
 PROTECT = True
 
 # Messages Configuration
